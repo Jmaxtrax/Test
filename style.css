@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #abafbe !important;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #26d3d3 !important; 
+  }
+  
+  .nav-link:hover {
+    color: #f0f0f0 !important; 
+  }
+  
+  /* Main Content Styles */
+  h2 {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  /* Responsive Image Styles */
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #about img {
+    max-width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    #about .col-md-4 {
+      text-align: center; 
+    }
+  }
+  
+  .home {
+    text-align: center; 
+  }
+
+  .border {
+    color: black;
+  }
+
+  /* Table Styles */
+  #schedule .table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: none;
+    background-color: transparent;
+  }
+  
+  #schedule .table th,
+  #schedule .table td {
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff; /* White text color */
+  }
+  
+  #schedule .table th {
+    background-color: #333; /* Dark background color for table header */
+  }
+  
+  #schedule .table tbody tr:nth-child(odd) {
+    background-color: rgba(199, 21, 21, 0.1); /* Semi-transparent background for odd rows */
+  }
+  
+  #schedule .table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter semi-transparent background on hover */
+  }
+  
+  /* Responsive Table Styling */
+  @media (max-width: 767px) {
+    #schedule .table td,
+    #schedule .table th {
+      font-size: 14px;
+    }
+  }
+  
+  #name-major h2,
+  #name-major p {
+    color: #fcfcfc;
+    text-align: left;
+  }
+
+  #name-major {
+    color:#333; 
+  }
+
+  #schedule h2, h1 {
+    color: white;
+  }
+
+  #schedule h1 {
+    color: white;
+    text-align: center;
+  }
+
+  #favorites h3 {
+    text-align: center;
+  }
+
+  #favorites h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #favorites h2,
+  #favorites h3,
+  #favorites a,
+  #favorites li {
+    color: white;
+    font-size: large;
+  }
+
+  #favorites a, p {
+    text-align: center;
+    font-size: large;
+    color: white;
+  }
+
+  #footer p {
+    color: rgb(247, 247, 247); 
+  }
+
+
